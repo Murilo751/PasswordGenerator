@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: x-large;
+}
+
+body {
+    background-color: #ecadd8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.caixa {
+    padding: 20px;
+    background-color: rgb(187, 143, 228);
+    box-shadow: 0 1px 10px #d04aa6;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.caixa h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(238, 193, 232);
+    font-family: sans-serif;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+caixa > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    accent-color: violet;
+    border-color: violet;
+    font-family: poppins;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+}
+
+input[type=range] {
+    width: 80%;
+    color: white;
+}
+
+input::placeholder{
+    font-size: 23px;
+}
+
+button {
+    font-family: Poppins;
+    font-size: 25px;
+    border: 2px solid purple;
+    text-align: center;
+    background-color: darkmagenta;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 7px;
+    height: 35px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
